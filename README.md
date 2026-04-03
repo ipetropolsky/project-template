@@ -38,4 +38,10 @@ npm run deploy
 ```bash
 # Install all dependencies with latest versions
 npm install $(npm run deps-latest --silent)
+
+# Inspect ESLint config
+npx eslint --inspect-config
+
+# Print ESLint config
+npx eslint --print-config src/index.tsx
 ```
